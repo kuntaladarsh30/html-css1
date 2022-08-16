@@ -1,0 +1,32 @@
+h1 {
+    margin-left:500px;
+    color: aqua;
+    text-align: center;
+    background-color: aliceblue;
+    width: 450px;
+    height: 42px;
+    align-content: center;
+}
+
+li {
+    color: red;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    
+}
+
+.back {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 408px;
+    height: 94px;
+    background-color: paleturquoise;
+}
+
+#keyword {
+    color: coral;
+}
+
+.container {
+    background: linear-gradient(#FF9933, #FFFFFF, #FFFFFF,#138808)
+}
