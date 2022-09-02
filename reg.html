@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+	<div>
+        <h1 style="text-align: center">Registration</h1>
+    <form>
+    <fieldset style="width: 500px">
+        <legend>Enter Name:</legend>
+        <label for="fname">First Name</label>
+        <input list="fname" name="fname">
+        <br>
+        <label for="mname">Mid Name</label>
+        <input type="text"  name="mname" id="mname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname">
+        <br>
+        
+        <datalist id="fname">
+            <option value="Adarsh">Adarsh</option>
+            <option value="Aman">Aman</option>
+            <option value="Mayank">Mayank</option>
+        </datalist>
+    
+    </fieldset>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+<!--
+        <label for="add">Address</label>
+        <input type="text" style="width: 465px" name="add" id="add">
+-->
+        <br>
+        <label for="roll">Roll Number</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="course">Courses</label>
+        <select name="course" id="course">
+            <option value="B.tech">B.tech</option><option value="B.pharma">B.pharma</option><option value="M.Tech">M.Tech</option><option value="BCA">BCA</option>
+        </select>
+        
+        <label for="dept">Department</label>
+        <select name="dept" id="dept">
+            <option value="CSE">CSE</option><option value="ECE">ECE</option><option value="Mechanical">Mechanical</option><option value="Civil">Civil</option>
+        </select>
+        <br>
+        <label for="sem">Semester</label>
+        <select name="sem" id="sem">
+            <option value="first">1</option><option value="second">2</option><option value="third">3</option><option value="forth">4</option>
+        </select>
+        <label for="sec">Section</label>
+        
+        <input type="radio" name="A" id="A">
+        <label for="A">A</label>   
+        <input type="radio" name="A" id="B">
+        <label for="B">B</label>  
+        <input type="radio" name="A" id="C">
+        <label for="C">C</label>
+        <input type="radio" name="A" id="D">
+        <label for="D">D</label>
+        <br>
+        <br>
+        <label>Subject</label>
+        <label for="cc">Cloud Computing</label>
+        <input type="checkbox" name="sub" id="cc">
+        <label for="aiml">Aiml</label>
+        <input type="checkbox" name="sub" id="aiml"><label for="fs">Full stack</label>
+        <input type="checkbox" name="sub" id="fs"><label for="crm">CRM</label>
+        <input type="checkbox" name="sub" id="crm">
+        <br>
+        <input type="submit">
+        <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
